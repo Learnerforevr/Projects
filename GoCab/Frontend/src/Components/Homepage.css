@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.maindiv{
+    background-color: black;
+    min-height: 95.64vh;
+    width: 100%;
+    background-image: url('../Components/TaxiWallpaer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.maindivbking{
+    background-color: black;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('../Components/TaxiWallpaer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Hdiv1{
+    background-color: rgb(63, 63, 63);
+    height: 6vh;
+    display: flex;
+}
+
+.Htitle{
+    font-size: 4.5vh;
+    margin-left: 6vh;
+    color: yellowgreen;
+    position: absolute;
+}
+
+.Htitle1{
+    color: yellowgreen;
+    font-size: 25vh;
+    margin-left: 50vh;
+}
+
+
+.btn1{
+    margin-top: 5vh;
+    background-color: transparent;
+    border-style: none;
+    color: yellowgreen;
+    font-size: 5vh;
+    margin-left: 70vh;
+}
+
+.btn1:hover
+{
+    background-color: yellowgreen;
+    cursor: pointer;
+    color: black;
+    border-radius: 1vh;
+}
+
+.arw:hover
+{
+    color: black;
+}
+
+.alrtbox{
+    background-color: black;
+}
+
+.alrtboxcontent{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+

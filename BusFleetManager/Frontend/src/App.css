@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.App{
+    background-image: url(../Images/360_F_448504467_PZmJm11FuTx3hqjpoR90DiunOJF9bXTb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.Admindiv{
+    border-style: solid;
+    border-color: yellow;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 15%;
+    margin-left: 20%;
+    height: 25vh;
+    width: 15%;
+}
+
+.Studentdiv{
+    border-style: solid;
+    border-color: yellow;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 64%;
+    height: 25vh;
+    width: 15%;
+}
+
+.Adutab{
+    font-size: 3.6vh;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.stutab
+{
+    font-size: 3.6vh;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.admsub{
+    height: 15%;
+    width: 38%;
+    font-size: 1.6vh;
+    background-color: white;
+    color: black;
+    margin-top: 21%;
+    margin-left: 55%;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: rgb(248, 242, 93);
+    border-color: yellow;
+}
+
+.admsub:hover{background-color: yellow;}
+
+
+
+.stusub
+{
+
+        height: 15%;
+        width: 38%;
+        font-size: 1.6vh;
+        background-color: white;
+        color: black;
+        margin-top: 21%;
+        margin-left: 55%;
+        border-radius: 25px;
+        cursor: pointer;
+        background-color: rgb(248, 242, 93);
+        border-color: yellow;
+}
+
+.stusub:hover{background-color:yellow;}
+
+.usrlable{
+    position: absolute;
+    margin-top: -5%;
+    font-size: 2vh;
+    margin-left: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.usrnmeinput{
+    position: absolute;
+    margin-top: -5%;
+    font-size: 1.6vh;
+    margin-left: 36%;
+}
+
+.usrpasswrd{
+    position: absolute;
+    margin-top: -0.5%;
+    font-size: 2vh;
+    margin-left: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.usrpasswrdinput{
+    position: absolute;
+    margin-top: -0.5%;
+    font-size: 1.6vh;
+    margin-left: 36%;
+}

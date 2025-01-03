@@ -1,0 +1,46 @@
+/* Adjust the main booking div */
+.maindivbking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+/* Styling the form itself */
+.frmtag {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Space between form elements */
+    background-color: yellowgreen;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Set a fixed width for form */
+}
+
+/* Styling for labels and inputs */
+.frmtag label {
+    font-weight: bold;
+    color: white;
+}
+
+.frmtag input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.frmtag button {
+    padding: 0.7rem;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.frmtag button:hover {
+    background-color: #45a049;
+}
